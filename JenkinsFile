@@ -20,7 +20,7 @@ pipeline {
         }
         stage('Security Scan') {
             steps {
-                echo 'Performing security scan using OWASP Dependency-Check.'
+                echo 'Performing security scan using the OWASP Dependency-Check.'
             }
         }
         stage('Deploy to Staging') {
