@@ -9,7 +9,7 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Building the code...'
-                //sh 'mvn clean install' // Placeholder  for Maven build command
+                //sh 'mvn clean install' // Placeholder for Maven build command
             }
         }
         stage('Unit and Integration Tests') {
