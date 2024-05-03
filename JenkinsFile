@@ -48,7 +48,7 @@ pipeline {
         }
         stage('Deploy to Staging') {
             steps {
-                echo 'Deploying to staging environment...'
+                echo 'Deploying to staging environment..'
                 //sh 'ssh user@staging-server "deploy-script.sh"' // Placeholder for deployment to staging server
             }
         }
